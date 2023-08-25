@@ -23,12 +23,21 @@ import {
   jobit,
   tripguide,
   threejs,
+  roadcall,
+  treehouse,
+  varsitytutor,
+  stac,
+  nyu,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "school",
+    title: "School",
   },
   {
     id: "work",
@@ -54,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Computer Science Tutor",
     icon: creator,
   },
 ];
@@ -108,63 +117,102 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+];
+const educations = [
   {
-    name: "docker",
-    icon: docker,
+    title: "New York University",
+    company_name: "MS in Computer Science",
+    icon: nyu,
+    iconBg: "#383E56",
+    date: "March 2023 - December 2024",
+    points: [
+      {
+        title: "Program Focus",
+        point:
+          "Advanced computer science concepts and techniques, including data structures and algorithms.",
+      },
+      {
+        title: "Course Includes",
+        point:
+          "Principles of Database Systems, Design & Analysis of Algorithms, Software Engineering, Big Data, and more",
+      },
+    ],
+  },
+  {
+    title: "St. Thomas Aquinas College",
+    company_name: "BS in Computer Science",
+    icon: stac,
+    iconBg: "#E6DEDD",
+    date: "Sep 2018 - May 2022",
+    points: [
+      {
+        title: "Honors & Awards",
+        point:
+          "Advanced computer science concepts and techniques, including data structures and algorithms.",
+      },
+      {
+        title: "Extracurricular Activities",
+        point:
+          "Principles of Database Systems, Design & Analysis of Algorithms, Software Engineering, Big Data, and more",
+      },
+    ],
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Intern",
+    company_name: "Roadcall.co",
+    icon: roadcall,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an admin to driver  note feature using Redux and JavaScript within the React framework.",
+      "Created tests for the web app UI and flows, resulting in fewer bugs.",
+      "Helped investigate and resolve issues with the phone masking component using Typescript.",
+      "Collaborated with other team members to provide support and bug fixes for various internal tools written in JavaScript ",
+      "Worked in an Agile Scrum team and worked with Trello for sprint planning.",
+      "Utilized BitBucket to store, manage and control changes in our code.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Intern",
+    company_name: "Treehouse Strategy	",
+    icon: treehouse,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created reusable React.js components, resulting in fewer bugs and improved code quality.",
+      "Added a dynamic dashboard page for agency partnerships  using React to enhance client engagement.",
+      "Implemented links on dashboard using React and MongoDB , to help functionality and optimize data entry in tables.",
+      "Provided support and bug fixes for various internal tools written in C#.",
+      "Worked in an Agile Scrum team and used Asana for sprint planning",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Computer Science Tutor",
+    company_name: "Varsity Tutors",
+    icon: varsitytutor,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tutored over a 100 students at all levels, starting with middle school to graduate students.",
+      "Delivered a series of technical Computer Science topics, such as Data Structures, Algorithms and OOP using Java .",
+      "Increased students programming proficiency by a 95% pass rate on final exams.",
+      "Collaborated with students in a well-organized, friendly, and progressive environment.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Researcher",
+    company_name: "St. Thomas Aquinas College",
+    icon: stac,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented three dialogue systems using the Oculus VR headsets, Unity tools and C# to trigger the dialogue at close proximity.",
+      "Worked in an Agile Scrum team and took part of the stand up meetings for sprint planning.",
+      "Created several new animations using the Mo Cap Suit to improve the quality of the application.",
+      "Presented this research in front of hundreds of educators  at the ISTE Live 2022  conference in New Orleans.",
     ],
   },
 ];
@@ -262,4 +310,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  educations,
+  experiences,
+  testimonials,
+  projects,
+};
