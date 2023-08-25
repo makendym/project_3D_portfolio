@@ -30,6 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import roadcall from "./roadcall.jpeg";
+import treehouse from "./treehouse.jpeg";
+import varsitytutor from "./varsitytutors.jpeg";
+import stac from "./stac.jpeg";
+import nyu from "./nyu.jpeg";
+import mylogo from "./mylogo.svg";
+import mylogo2 from "./mylogo2.png";
+
 export {
   logo,
   backend,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  roadcall,
+  treehouse,
+  varsitytutor,
+  stac,
+  nyu,
+  mylogo,
+  mylogo2
 };
