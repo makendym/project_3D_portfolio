@@ -28,6 +28,9 @@ import {
   varsitytutor,
   stac,
   nyu,
+  discrimination,
+  FatEar,
+  NYU_Int_Prep
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +58,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -165,7 +168,7 @@ const experiences = [
     company_name: "Roadcall.co",
     icon: roadcall,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jun 2023 - Sep 2023",
     points: [
       "Developed an admin to driver  note feature using Redux and JavaScript within the React framework.",
       "Created tests for the web app UI and flows, resulting in fewer bugs.",
@@ -180,7 +183,7 @@ const experiences = [
     company_name: "Treehouse Strategy	",
     icon: treehouse,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2021 - Sep 2021",
     points: [
       "Created reusable React.js components, resulting in fewer bugs and improved code quality.",
       "Added a dynamic dashboard page for agency partnerships  using React to enhance client engagement.",
@@ -194,7 +197,7 @@ const experiences = [
     company_name: "Varsity Tutors",
     icon: varsitytutor,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2020 - Present",
     points: [
       "Tutored over a 100 students at all levels, starting with middle school to graduate students.",
       "Delivered a series of technical Computer Science topics, such as Data Structures, Algorithms and OOP using Java .",
@@ -207,7 +210,7 @@ const experiences = [
     company_name: "St. Thomas Aquinas College",
     icon: stac,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sept 2019 - May 2022",
     points: [
       "Implemented three dialogue systems using the Oculus VR headsets, Unity tools and C# to trigger the dialogue at close proximity.",
       "Worked in an Agile Scrum team and took part of the stand up meetings for sprint planning.",
@@ -246,67 +249,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NYU Interview Prep",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created a full-stack web application for NYU alumni and faculty to connect students pursuing similar careers ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Postgres",
         color: "pink-text-gradient",
       },
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: NYU_Int_Prep,
+    source_code_link: "https://github.com/makendym/NYU-Interview-Prep/tree/develop",
   },
   {
-    name: "Job IT",
+    name: "Combating Discrimination",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Worked on a study using Virtual Reality to investigate and treat discrimination in the daily life of college students.",
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Oculus VR headsets",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "C#",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: discrimination,
+    source_code_link: "https://github.com/taulantxhakli/Discrimination",
   },
   {
-    name: "Trip Guide",
+    name: "FatEar",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a full-stack web application using React and Flask to provide users with a music account. This allows users to make a post about their favorite artist or songs. They can even follow or send a friend request to other users.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FatEar,
+    source_code_link: "https://github.com/makendym/FatEar",
   },
 ];
 
