@@ -14,14 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   roadcall,
   treehouse,
@@ -30,7 +22,9 @@ import {
   nyu,
   discrimination,
   FatEar,
-  NYU_Int_Prep
+  NYU_Int_Prep,
+  ResumePic,
+  Resume
 } from "../assets";
 
 export const navLinks = [
@@ -155,12 +149,12 @@ const educations = [
       {
         title: "Honors & Awards",
         point:
-          "Advanced computer science concepts and techniques, including data structures and algorithms.",
+          "Academic Scholarship, Athletic Scholarship, Distinguished Dean’s List, Chi Alpha Sigma –Nu Chapter, Sigma Zeta.",
       },
       {
         title: "Extracurricular Activities",
         point:
-          "Principles of Database Systems, Design & Analysis of Algorithms, Software Engineering, Big Data, and more",
+          "Altar Server, Venture, College Soccer, College Track & Field, and more",
       },
     ],
   },
@@ -223,6 +217,7 @@ const experiences = [
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -321,6 +316,16 @@ const projects = [
   },
 ];
 
+const resume = [
+  {
+    name: "Resume",
+    description:
+      "Please download my resume! Contact me for more information. I would love to connect!",
+    image: ResumePic,
+    source_code_link: Resume,
+  },
+];
+
 export {
   services,
   technologies,
@@ -328,4 +333,5 @@ export {
   experiences,
   testimonials,
   projects,
+  resume
 };
