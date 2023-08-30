@@ -35,9 +35,10 @@ const Hero = () => {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)", // Center the video
-              width: "auto",
-              height: "100%", // Cover the entire height
-              minWidth: "100%", // Ensure the video covers the width
+              width: "100%", // Set width to cover the entire viewport
+              height: "auto", // Automatically adjust height based on aspect ratio
+              maxWidth: "100%", // Ensure the video doesn't exceed viewport width
+              maxHeight: "100vh", // Limit video height to the viewport height
               objectFit: "cover",
               opacity: "0.3",
             }}
