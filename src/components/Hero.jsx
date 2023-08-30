@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -26,9 +25,29 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
-
+      <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)", // Center the video
+              width: "auto",
+              height: "100%", // Cover the entire height
+              minWidth: "100%", // Ensure the video covers the width
+              objectFit: "cover",
+              opacity: "0.3",
+            }}
+          >
+            <source
+              src="https://d3lh4iw97b9uun.cloudfront.net/xlab.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

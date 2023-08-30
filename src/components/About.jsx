@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a Master's student at New York University with experience in Java and
-        JavaScript, and have worked with frameworks like React, Node.js, and Django. I'm a quick learner and I love to collaborate to
+        JavaScript. I have worked with frameworks like React, Node.js, and Django. I am quick learner and I love to collaborate to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
