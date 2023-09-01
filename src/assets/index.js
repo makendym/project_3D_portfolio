@@ -40,9 +40,11 @@ import mylogo2 from "./mylogo2.png";
 import discrimination from "./discrimination.jpeg";
 import FatEar from "./FatEar.png";
 import NYU_Int_Prep from "./NYU_Interview_Prep.png";
+import CleaningService from "./CleaningService.png";
 import ResumePic from "./ResumePic.png";
 import DownloadLogo from "./downloadLogo.jpeg";
 import Resume from "./makendy_midouin_2024_4.1.pdf";
+import earth from "./earth.png";
 export {
   logo,
   backend,
@@ -82,7 +84,9 @@ export {
   discrimination,
   FatEar,
   NYU_Int_Prep,
+  CleaningService,
   ResumePic,
   DownloadLogo,
+  earth,
   Resume
 };

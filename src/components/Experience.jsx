@@ -50,8 +50,21 @@ const ExperienceCard = ({ experience }) => {
           >
             {point}
           </li>
+
         ))}
       </ul>
+      <p className='text-secondary text-[16px] font-semibold mt-3'>
+        {experience.link ? (
+          <a
+            href={experience.link}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-[#915EFF] underline'
+          >
+            Check it out
+          </a>
+        ) : null}
+      </p>
     </VerticalTimelineElement>
   );
 };

@@ -24,7 +24,9 @@ import {
   FatEar,
   NYU_Int_Prep,
   ResumePic,
-  Resume
+  Resume,
+  CleaningService,
+  earth
 } from "../assets";
 
 export const navLinks = [
@@ -216,33 +218,17 @@ const experiences = [
       "Presented this research in front of hundreds of educators  at the ISTE Live 2022  conference in New Orleans.",
     ],
   },
-];
-
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Publications",
+    company_name: "Ignite Committee at St. Thomas Aquinas College",
+    icon: stac,
+    iconBg: "#E6DEDD",
+    date: "Sep 2021",
+    points: [
+      "The projects on display demonstrate the ongoing commitment of our faculty to supporting undergraduate research. As is true of the faculty advisors who support them, these students and their work hold the potential to contribute positively to the world. Each of these students has benefited from mentoring provided by exceptional faculty. We thank the faculty for their efforts on behalf of these students",
+    ],
+    link:
+      "https://stac.edu/wp-content/uploads/2023/03/ignite2021_booklet-1.pdf",
   },
 ];
 
@@ -250,10 +236,10 @@ const projects = [
   {
     name: "NYU Interview Prep",
     description:
-      "Created a full-stack web application for NYU alumni and faculty to connect students pursuing similar careers ",
+      "Developed a full-stack web application tailored to the needs of NYU students, alumni and faculty, providing a digital ecosystem for students with shared career interests to engage and collaborate. Leveraged advanced technologies to create a seamless platform that enables effective networking, knowledge sharing, and mentorship, fostering a supportive community for career-driven interactions. ",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -265,12 +251,40 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "AWS",
+        name: "AWS(EC2, S3, CLoudfront)",
         color: "orange-text-gradient",
       },
     ],
     image: NYU_Int_Prep,
-    source_code_link: "https://github.com/makendym/NYU-Interview-Prep/tree/develop",
+    is_web: false,
+    source_code_link:
+      "https://github.com/makendym/NYU-Interview-Prep/tree/develop",
+  },
+  {
+    name: "Cleaning Service",
+    description:
+      "Developed a comprehensive full-stack web application that facilitates seamless interaction between local business proprietors and prospective customers. The platform empowers clients to effortlessly reserve their preferred time slots, enhancing the overall experience for both parties involved.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS(S3, CLoudfront)",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: CleaningService,
+    is_web: true,
+    source_code_link: "https://dapper-biscotti-c1d188.netlify.app/",
   },
   {
     name: "Combating Discrimination",
@@ -312,6 +326,7 @@ const projects = [
       },
     ],
     image: FatEar,
+    is_web: false,
     source_code_link: "https://github.com/makendym/FatEar",
   },
 ];
@@ -326,12 +341,4 @@ const resume = [
   },
 ];
 
-export {
-  services,
-  technologies,
-  educations,
-  experiences,
-  testimonials,
-  projects,
-  resume
-};
+export { services, technologies, educations, experiences, projects, resume };
