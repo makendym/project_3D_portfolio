@@ -26,7 +26,8 @@ import {
   ResumePic,
   Resume,
   CleaningService,
-  earth
+  earth,
+  StackOverflow
 } from "../assets";
 
 export const navLinks = [
@@ -233,6 +234,33 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Stack Overflow Big Data",
+    description:
+      "In this project, I analyzed a 100GB sample from StackOverflow's 8TB dataset to uncover insights using MongoDB and AWS DynamoDB. I built an interactive web dashboard to present the findings, overcoming challenges in data volume and query optimization through effective preprocessing and optimization strategies. This app showcases the potential of big data analytics in extracting meaningful insights from large datasets. Future work will explore expanding the dataset and incorporating machine learning for enhanced analysis.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ECharts",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: StackOverflow,
+    is_web: false,
+    source_code_link:
+      "https://github.com/makendym/StackOverflow-BigData",
+  },
   {
     name: "NYU Interview Prep",
     description:

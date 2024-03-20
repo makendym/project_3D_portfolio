@@ -45,6 +45,7 @@ import ResumePic from "./ResumePic.png";
 import DownloadLogo from "./downloadLogo.jpeg";
 import Resume from "./makendy_midouin_resume_2024.pdf";
 import earth from "./earth.png";
+import StackOverflow from "./stackoverflow.png";
 export {
   logo,
   backend,
@@ -88,5 +89,6 @@ export {
   ResumePic,
   DownloadLogo,
   earth,
-  Resume
+  Resume,
+  StackOverflow
 };
