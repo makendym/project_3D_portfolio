@@ -27,7 +27,9 @@ import {
   Resume,
   CleaningService,
   earth,
-  StackOverflow
+  StackOverflow,
+  kidzToPros,
+  APCompTutor
 } from "../assets";
 
 export const navLinks = [
@@ -165,6 +167,19 @@ const educations = [
 
 const experiences = [
   {
+    title: "Lead Coding Instructor",
+    company_name: "Brains & Motion Education",
+    icon: kidzToPros,
+    iconBg: "#383E56",
+    date: "Jun 2024 - August 2024",
+    points: [
+      "Teach and manage camper groups of up to 12 students, delivering engaging curriculum and fostering a positive environment.",
+      "Mentor instructors on innovative teaching strategies, such as gamification, resulting in a 25% increase in instructor confidence.",
+      "Implement student-centered teaching strategies, including  real-time feedback, leading to a 20% increase in student participation.",
+      "Introduce innovative teaching methods, such as coding  with Scratch with Code Crafters, to increase student engagement.",
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Roadcall.co",
     icon: roadcall,
@@ -228,12 +243,33 @@ const experiences = [
     points: [
       "The projects on display demonstrate the ongoing commitment of our faculty to supporting undergraduate research. As is true of the faculty advisors who support them, these students and their work hold the potential to contribute positively to the world. Each of these students has benefited from mentoring provided by exceptional faculty. We thank the faculty for their efforts on behalf of these students",
     ],
-    link:
-      "https://stac.edu/wp-content/uploads/2023/03/ignite2021_booklet-1.pdf",
+    link: "https://stac.edu/wp-content/uploads/2023/03/ignite2021_booklet-1.pdf",
   },
 ];
 
 const projects = [
+  {
+    name: "APCompTutor.AI",
+    description:
+      "I developed an educational app using React and Node.js that generates practice exam questions with OpenAI models, converted exam questions from PDFs to JSONL format using GPT-4 to enhance data processing efficiency for the fine-tuned model, and implemented a compiler for starter code, enabling students to compile and test code under real exam conditions.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FireBase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI/GPT4",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: APCompTutor,
+    is_web: false,
+    source_code_link: "",
+  },
   {
     name: "Stack Overflow Big Data",
     description:
@@ -258,8 +294,7 @@ const projects = [
     ],
     image: StackOverflow,
     is_web: false,
-    source_code_link:
-      "https://github.com/makendym/StackOverflow-BigData",
+    source_code_link: "https://github.com/makendym/StackOverflow-BigData",
   },
   {
     name: "NYU Interview Prep",
@@ -369,4 +404,4 @@ const resume = [
   },
 ];
 
-export { services, technologies, educations, experiences, projects, resume };
+export {services, technologies, educations, experiences, projects, resume};
