@@ -47,7 +47,7 @@ import Resume from "./makendy_midouin_resume_2024.pdf";
 import earth from "./earth.png";
 import StackOverflow from "./stackoverflow.png";
 import kidzToPros from "./kidztopros_logo.jpeg";
-import APCompTutor from "./apcomptutor.png";
+import APCompTutor from "./APCompTutor.png";
 
 export {
   logo,
