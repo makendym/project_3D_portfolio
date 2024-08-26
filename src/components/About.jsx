@@ -1,17 +1,17 @@
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
-import { styles } from "../styles";
-import { services } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import {styles} from "../styles";
+import {services} from "../constants";
+import {SectionWrapper} from "../hoc";
+import {fadeIn, textVariant} from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+const ServiceCard = ({index, title, icon}) => (
+  <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{
@@ -19,15 +19,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="web-development"
+          className="w-16 h-16 object-contain"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -45,17 +45,35 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Master's student at New York University with experience in Java and
-        JavaScript. I have worked with frameworks like React, Node.js, and Django. I am quick learner and I love to collaborate to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a Master's student at New York University, and I’m passionate about
+        turning ideas into impactful, real-world solutions. Whether I’m coding
+        up a web app, streamlining data processes, or mentoring future tech
+        talent, I bring enthusiasm and a problem-solving mindset to every
+        project. My journey from athletics to tech has taught me the power of
+        adaptability and continuous learning, and I’m always excited to take on
+        new challenges. I thrive both working independently and in team
+        settings, where collaboration leads to efficient, scalable, and
+        user-friendly solutions that make a difference. I’m eager to bring my
+        skills and energy to projects that have a lasting impact.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        SKILLS: Software Development | Frontend & Backend Engineering | React.js
+        | Node.js | Python | Java | JavaScript | AI Concepts | Web Technologies
+        | AWS | Agile | Problem Solving | Leadership
+      </motion.p>
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard
+            key={service.title}
+            index={index}
+            {...service}
+          />
         ))}
       </div>
     </>

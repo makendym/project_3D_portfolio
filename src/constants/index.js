@@ -29,7 +29,7 @@ import {
   earth,
   StackOverflow,
   kidzToPros,
-  APCompTutor
+  APCompTutor,
 } from "../assets";
 
 export const navLinks = [
@@ -167,19 +167,6 @@ const educations = [
 
 const experiences = [
   {
-    title: "Lead Coding Instructor",
-    company_name: "Brains & Motion Education",
-    icon: kidzToPros,
-    iconBg: "#383E56",
-    date: "Jun 2024 - August 2024",
-    points: [
-      "Teach and manage camper groups of up to 12 students, delivering engaging curriculum and fostering a positive environment.",
-      "Mentor instructors on innovative teaching strategies, such as gamification, resulting in a 25% increase in instructor confidence.",
-      "Implement student-centered teaching strategies, including  real-time feedback, leading to a 20% increase in student participation.",
-      "Introduce innovative teaching methods, such as coding  with Scratch with Code Crafters, to increase student engagement.",
-    ],
-  },
-  {
     title: "Software Engineer Intern",
     company_name: "Roadcall.co",
     icon: roadcall,
@@ -243,6 +230,22 @@ const experiences = [
   },
 ];
 
+const additionalExperiences = [
+  {
+    title: "Software Engineer Adjunct Faculty ",
+    company_name: "St. Thomas Aquinas College ",
+    icon: stac,
+    iconBg: "#383E56",
+    date: "August 2024 - Present",
+  },
+  {
+    title: "Lead Coding Instructor",
+    company_name: "Brains & Motion Education",
+    icon: kidzToPros,
+    iconBg: "#383E56",
+    date: "Jun 2024 - August 2024",
+  },
+];
 const projects = [
   {
     name: "APCompTutor.AI",
@@ -367,7 +370,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "C#",
+        name: "C-sharp",
         color: "pink-text-gradient",
       },
     ],
@@ -408,4 +411,4 @@ const resume = [
   },
 ];
 
-export {services, technologies, educations, experiences, projects, resume};
+export {services, technologies, educations, experiences, additionalExperiences, projects, resume};

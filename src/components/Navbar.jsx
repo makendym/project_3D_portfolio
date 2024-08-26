@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { mylogo, menu, close } from "../assets";
+import { mylogo3, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,8 +42,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={mylogo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <img src={mylogo3} alt='logo' className='w-20 h-20 object-contain' />
+          <p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
             Makendy's &nbsp;
             <span className='sm:block hidden'> | Portfolio</span>
           </p>

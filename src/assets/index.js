@@ -37,6 +37,7 @@ import stac from "./stac.jpeg";
 import nyu from "./nyu.jpeg";
 import mylogo from "./mylogo.svg";
 import mylogo2 from "./mylogo2.png";
+import mylogo3 from "./IconOnly_Transparent_NoBuffer.png";
 import discrimination from "./discrimination.jpeg";
 import FatEar from "./FatEar.png";
 import NYU_Int_Prep from "./NYU_Interview_Prep.png";
@@ -85,6 +86,7 @@ export {
   nyu,
   mylogo,
   mylogo2,
+  mylogo3,
   discrimination,
   FatEar,
   NYU_Int_Prep,
