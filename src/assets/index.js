@@ -43,7 +43,7 @@ import NYU_Int_Prep from "./NYU_Interview_Prep.png";
 import CleaningService from "./CleaningService.png";
 import ResumePic from "./ResumePic.png";
 import DownloadLogo from "./downloadLogo.jpeg";
-import Resume from "./makendy_midouin_resume_2024.pdf";
+import Resume from "./makendy_midouin_resume.pdf";
 import earth from "./earth.png";
 import StackOverflow from "./stackoverflow.png";
 import kidzToPros from "./kidztopros_logo.jpeg";
