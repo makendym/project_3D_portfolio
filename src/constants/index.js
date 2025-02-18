@@ -130,7 +130,7 @@ const educations = [
     company_name: "MS in Computer Science",
     icon: nyu,
     iconBg: "#383E56",
-    date: "March 2023 - December 2024",
+    date: "",
     points: [
       {
         title: "Program Focus",
@@ -149,7 +149,7 @@ const educations = [
     company_name: "BS in Computer Science",
     icon: stac,
     iconBg: "#E6DEDD",
-    date: "Sep 2018 - May 2022",
+    date: "",
     points: [
       {
         title: "Honors & Awards",
@@ -167,7 +167,7 @@ const educations = [
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company_name: "Roadcall.co",
     icon: roadcall,
     iconBg: "#383E56",
@@ -181,7 +181,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company_name: "Treehouse Strategy	",
     icon: treehouse,
     iconBg: "#E6DEDD",
