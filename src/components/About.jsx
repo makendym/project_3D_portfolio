@@ -48,8 +48,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         A software engineer passionate about turning ideas into impactful,
-        real-world solutions. With experience in full-stack development, data
-        engineering, and tech education, I bring both technical expertise and a
+        real-world solutions. With experience in full-stack development, react
+        development, and tech education, I bring both technical expertise and a
         problem-solving mindset to every project. My background in athletics has
         shaped my approach to challenges, emphasizing adaptability and
         continuous growth. I thrive in both independent and collaborative
