@@ -47,16 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Master's student at New York University, and I’m passionate about
-        turning ideas into impactful, real-world solutions. Whether I’m coding
-        up a web app, streamlining data processes, or mentoring future tech
-        talent, I bring enthusiasm and a problem-solving mindset to every
-        project. My journey from athletics to tech has taught me the power of
-        adaptability and continuous learning, and I’m always excited to take on
-        new challenges. I thrive both working independently and in team
-        settings, where collaboration leads to efficient, scalable, and
-        user-friendly solutions that make a difference. I’m eager to bring my
-        skills and energy to projects that have a lasting impact.
+        A software engineer passionate about turning ideas into impactful,
+        real-world solutions. With experience in full-stack development, data
+        engineering, and tech education, I bring both technical expertise and a
+        problem-solving mindset to every project. My background in athletics has
+        shaped my approach to challenges, emphasizing adaptability and
+        continuous growth. I thrive in both independent and collaborative
+        environments, focusing on building efficient, scalable, and
+        user-friendly solutions that drive meaningful results. Looking to
+        leverage my technical skills and leadership experience in roles that
+        create lasting impact
       </motion.p>
 
       <motion.p

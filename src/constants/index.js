@@ -167,6 +167,19 @@ const educations = [
 
 const experiences = [
   {
+    title: "Lead Coding Instructor",
+    company_name: "Brains & Motion Education",
+    icon:  kidzToPros,
+    iconBg: "#383E56",
+    date: "Jun 2024 - August 2024",
+    points: [
+      "Led instructor team, providing personalized feedback and implementing gamification strategies to improve teaching performance",
+      "Taught Python, AI concepts, algorithms, and game design to groups of up to 12 students using platforms like Scratch",
+      "Delivered weekly project presentations to parents, showcasing student achievements and providing individualized progress reports",
+      "Facilitated student-centered learning through real-time feedback and hands-on projects",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Roadcall.co",
     icon: roadcall,
@@ -237,13 +250,6 @@ const additionalExperiences = [
     icon: stac,
     iconBg: "#383E56",
     date: "August 2024 - Present",
-  },
-  {
-    title: "Lead Coding Instructor",
-    company_name: "Brains & Motion Education",
-    icon: kidzToPros,
-    iconBg: "#383E56",
-    date: "Jun 2024 - August 2024",
   },
 ];
 const projects = [
